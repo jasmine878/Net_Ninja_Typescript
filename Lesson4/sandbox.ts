@@ -20,3 +20,14 @@ mixedArr.push(10);
 mixedArr[0] = 3;
 
 //objects
+let ninja = {
+  name: 'mario',
+  belt: 'black',
+  age: 30
+}
+
+ninja.age = 40;
+ninja.name = 'ryu';
+
+//cannot add a new property to an object
+// ninja.skills = ['fighting', 'sneaking'];
