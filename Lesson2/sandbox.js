@@ -1,6 +1,8 @@
-var character = "mario";
+var character = 'mario';
 console.log(character);
-var inputs = document.querySelectorAll("input");
+//grabs all of the input tags
+var inputs = document.querySelectorAll('input');
+console.log(inputs);
 inputs.forEach(function (input) {
-  console.log(input);
+    console.log(input);
 });
