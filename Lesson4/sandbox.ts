@@ -31,3 +31,9 @@ ninja.name = 'ryu';
 
 //cannot add a new property to an object
 // ninja.skills = ['fighting', 'sneaking'];
+
+ninja = {
+  name: 'yoshi',
+  belt: 'orange',
+  age: 40
+}
