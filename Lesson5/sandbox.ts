@@ -10,6 +10,11 @@ age = 30;
 isLoggedIn = true;
 
 // arrays
+let ninjas: string[];
+
+// ninjas = [10, 23];
+ninjas = ['yoshi', 'mario'];
+
 
 // union types
 
