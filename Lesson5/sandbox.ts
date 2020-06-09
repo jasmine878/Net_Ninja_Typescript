@@ -30,4 +30,8 @@ uid = '123';
 // uid = false;
 
 // objects
+let ninjaOne: object;
 
+ninjaOne = { name: 'yoshi', age: 30 };
+// ninjaOne = 'hello';
+ninjaOne = [];
