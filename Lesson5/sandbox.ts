@@ -35,3 +35,15 @@ let ninjaOne: object;
 ninjaOne = { name: 'yoshi', age: 30 };
 // ninjaOne = 'hello';
 ninjaOne = [];
+
+let ninjaTwo: {
+  name: string,
+  age: number,
+  beltColor: string
+}
+
+ninjaTwo = {
+  name: 'mario',
+  age: 20,
+  beltColor: 'black'
+}
