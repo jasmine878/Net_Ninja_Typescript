@@ -23,5 +23,11 @@ mixed.push(20);
 mixed.push(false);
 console.log(mixed);
 
+let uid: string|number;
+
+uid = 123;
+uid = '123';
+// uid = false;
 
 // objects
+
