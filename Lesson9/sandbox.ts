@@ -1,11 +1,13 @@
-const logDetails = (uid: string | number, item: string) => {
+type StringOrNum = string | number;
+
+const logDetails = (uid: StringOrNum, item: string) => {
   console.log(`${item} has a uid of ${uid}`);
 }
 
-const greet = (user: {name: string, uid: string | number}) => {
+const greet = (user: {name: string, uid: StringOrNum}) => {
   console.log(`${user.name} says hello`);
 }
 
-const greetAgain = (user: { name: string, uid: string | number }) => {
+const greetAgain = (user: { name: string, uid: StringOrNum}) => {
   console.log(`${user.name} says hello`);
 }
