@@ -1,2 +1,3 @@
 "use strict";
-console.log("testing");
+var anchor = document.querySelector('a');
+// console.log(anchor.href);

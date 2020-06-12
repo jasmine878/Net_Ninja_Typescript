@@ -1,1 +1,3 @@
-console.log("testing");
+const anchor = document.querySelector('a');
+
+// console.log(anchor.href);
