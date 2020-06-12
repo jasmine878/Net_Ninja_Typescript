@@ -11,3 +11,8 @@ var form1 = document.querySelector('.new-item-form');
 //Typecasting
 var form2 = document.querySelector('.new-item-form');
 console.log(form2.children);
+//inputs
+var type = document.querySelector('#type');
+var tofrom = document.querySelector('#tofrom');
+var details = document.querySelector('#details');
+var amount = document.querySelector('#amount');
