@@ -32,6 +32,14 @@ const minus = (a: number, b: number) => {
 //infer the type based on the return type
 let result = minus(10, 7);
 
-console.log("type based on return type of function")
+console.log("type based on the return type of a function")
 console.log(result)
+
+//explicitly state the return type of a function
+const minus2 = (a: number, b: number): number => {
+  return a - b;
+}
+
+console.log("explicitly state the return type of a function");
+console.log(minus2(10, 7));
 

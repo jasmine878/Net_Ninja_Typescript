@@ -24,5 +24,11 @@ var minus = function (a, b) {
 };
 //infer the type based on the return type
 var result = minus(10, 7);
-console.log("type based on return type of function");
+console.log("type based on the return type of a function");
 console.log(result);
+//explicitly state the return type of a function
+var minus2 = function (a, b) {
+    return a - b;
+};
+console.log("explicitly state the return type of a function");
+console.log(minus2(10, 7));
