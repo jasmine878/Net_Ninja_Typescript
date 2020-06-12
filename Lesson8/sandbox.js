@@ -19,3 +19,10 @@ console.log("default parameter - ");
 add2(5, 10);
 console.log("default parameter - ");
 add2(5, 10, 30);
+var minus = function (a, b) {
+    return a - b;
+};
+//infer the type based on the return type
+var result = minus(10, 7);
+console.log("type based on return type of function");
+console.log(result);
