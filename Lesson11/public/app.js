@@ -16,3 +16,8 @@ var type = document.querySelector('#type');
 var tofrom = document.querySelector('#tofrom');
 var details = document.querySelector('#details');
 var amount = document.querySelector('#amount');
+//create an event listener to the form
+form2.addEventListener('submit', function (e) {
+    e.preventDefault();
+    console.log(type.value, tofrom.value, details.value, amount.valueAsNumber);
+});

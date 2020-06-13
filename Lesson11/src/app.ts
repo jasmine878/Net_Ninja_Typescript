@@ -21,3 +21,14 @@ const tofrom = document.querySelector('#tofrom') as HTMLInputElement;
 const details = document.querySelector('#details') as HTMLInputElement;
 const amount = document.querySelector('#amount') as HTMLInputElement;
 
+//create an event listener to the form
+form2.addEventListener('submit', (e: Event) => {
+  e.preventDefault();
+
+  console.log(
+    type.value,
+    tofrom.value,
+    details.value,
+    amount.valueAsNumber
+  )
+})
