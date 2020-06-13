@@ -16,5 +16,5 @@ var invoices = [];
 invoices.push(invoice1);
 invoices.push(invoice2);
 invoices.forEach(function (invoice) {
-    console.log(invoice.client, invoice.details, invoice.amount, invoice.format());
+    console.log(invoice.client, invoice.amount, invoice.format());
 });

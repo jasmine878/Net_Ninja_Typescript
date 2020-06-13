@@ -1,8 +1,8 @@
 //classes
 class Invoice {
-  client: string;
-  details: string;
-  amount: number;
+  readonly client: string;
+  private details: string;
+  public amount: number;
 
   constructor(client: string, details: string, amount: number) {
     this.client = client;
@@ -24,5 +24,5 @@ invoices.push(invoice1);
 invoices.push(invoice2);
 
 invoices.forEach(invoice => {
-  console.log(invoice.client, invoice.details, invoice.amount, invoice.format());
+  console.log(invoice.client, invoice.amount, invoice.format());
 })
