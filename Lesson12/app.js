@@ -13,3 +13,7 @@ var Invoice = /** @class */ (function () {
 var invoice1 = new Invoice('mario', 'work on the mario website', 250);
 var invoice2 = new Invoice('luigi', 'work on the luigi website', 300);
 console.log(invoice1, invoice2);
+var invoices = [];
+invoices.push(invoice1);
+invoices.push(invoice2);
+console.log(invoices);
