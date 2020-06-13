@@ -23,3 +23,6 @@ let invoices: Invoice[] = [];
 invoices.push(invoice1);
 invoices.push(invoice2);
 
+invoices.forEach(invoice => {
+  console.log(invoice.client, invoice.details, invoice.amount, invoice.format());
+})

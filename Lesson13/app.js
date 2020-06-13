@@ -15,3 +15,6 @@ var invoice2 = new Invoice('luigi', 'work on the luigi website', 300);
 var invoices = [];
 invoices.push(invoice1);
 invoices.push(invoice2);
+invoices.forEach(function (invoice) {
+    console.log(invoice.client, invoice.details, invoice.amount, invoice.format());
+});
