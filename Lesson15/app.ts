@@ -19,3 +19,8 @@ const me: isPerson = {
 }
 
 console.log(me);
+
+//declare variable of interface type isPerson
+let someone: isPerson;
+
+

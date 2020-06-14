@@ -10,3 +10,5 @@ var me = {
     }
 };
 console.log(me);
+//declare variable of interface type isPerson
+var someone;
