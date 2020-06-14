@@ -23,4 +23,9 @@ console.log(me);
 //declare variable of interface type isPerson
 let someone: isPerson;
 
+//declare a parameter of interface type isPerson
+const greetPerson = (person: isPerson) => {
+  console.log('hello ', person.name);
+}
 
+greetPerson(me);
