@@ -6,4 +6,16 @@ interface isPerson {
   spend(amount: number): number;
 }
 
+const me: isPerson = {
+  name: 'shaun',
+  age: 30,
+  speak(text: string): void {
+    console.log(text);
+  },
+  spend(amount: number): number {
+    console.log("I spent", amount);
+    return amount;
+  }
+}
 
+console.log(me);
