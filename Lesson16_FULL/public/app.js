@@ -1,9 +1,8 @@
 import { Invoice } from './classes/Invoice.js';
-const invoice1 = new Invoice('mario', 'work on the mario website', 250);
-const invoice2 = new Invoice('luigi', 'work on the luigi website', 300);
-let invoices = [];
-invoices.push(invoice1);
-invoices.push(invoice2);
-invoices.forEach(invoice => {
-    console.log(invoice.client, invoice.amount, invoice.format());
-});
+import { Payment } from './classes/Payment.js';
+//set two variables to type Interface
+let docOne;
+let docTwo;
+//initialize the two variables with values that match the interface type
+docOne = new Invoice('yoshi', 'web work', 250);
+docTwo = new Payment('mario', 'plumbing work', 200);
