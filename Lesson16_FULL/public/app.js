@@ -11,3 +11,15 @@ let docs = [];
 docs.push(docOne);
 docs.push(docTwo);
 console.log(docs);
+//Typecasting
+const form = document.querySelector('.new-item-form');
+//inputs
+const type = document.querySelector('#type');
+const tofrom = document.querySelector('#tofrom');
+const details = document.querySelector('#details');
+const amount = document.querySelector('#amount');
+//create an event listener to the form
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    console.log(type.value, tofrom.value, details.value, amount.valueAsNumber);
+});
