@@ -10,3 +10,10 @@ let docTwo: HasFormatter;
 docOne = new Invoice('yoshi', 'web work', 250);
 docTwo = new Payment('mario', 'plumbing work', 200);
 
+//create an array of interface type elements
+let docs: HasFormatter[] = [];
+
+docs.push(docOne);
+docs.push(docTwo);
+
+console.log(docs);
