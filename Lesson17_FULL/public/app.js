@@ -1,5 +1,5 @@
-import { Invoice } from './classes/Invoice.js.js';
-import { Payment } from './classes/Payment.js.js';
+import { Invoice } from './classes/Invoice.js';
+import { Payment } from './classes/Payment.js';
 //set two variables to type Interface
 let docOne;
 let docTwo;
