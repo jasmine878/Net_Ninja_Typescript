@@ -1,23 +1,7 @@
 import { Invoice } from './classes/Invoice.js';
 import { Payment } from './classes/Payment.js';
 import { HasFormatter } from './interfaces/HasFormatter';
-
-//set two variables to type Interface
-let docOne: HasFormatter;
-let docTwo: HasFormatter;
-
-//initialize the two variables with values that match the interface type
-docOne = new Invoice('yoshi', 'web work', 250);
-docTwo = new Payment('mario', 'plumbing work', 200);
-
-//create an array of interface type elements
-let docs: HasFormatter[] = [];
-
-docs.push(docOne);
-docs.push(docTwo);
-
-console.log(docs);
-
+import { ListTemplate } from './classes/ListTemplate.js';
 
 //Typecasting
 const form = document.querySelector('.new-item-form') as HTMLFormElement;
@@ -27,6 +11,10 @@ const type = document.querySelector('#type') as HTMLSelectElement;
 const tofrom = document.querySelector('#tofrom') as HTMLInputElement;
 const details = document.querySelector('#details') as HTMLInputElement;
 const amount = document.querySelector('#amount') as HTMLInputElement;
+
+//unordered list template instance
+const ul = document.querySelector('ul')!;
+const list = new ListTemplate(ul);
 
 //create an event listener to the form
 form.addEventListener('submit', (e: Event) => {
@@ -40,6 +28,6 @@ form.addEventListener('submit', (e: Event) => {
     doc = new Payment(tofrom.value, details.value, amount.valueAsNumber);
   }
 
-  console.log(doc)
+
 })
 
