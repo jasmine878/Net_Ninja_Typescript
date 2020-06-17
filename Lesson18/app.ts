@@ -25,3 +25,19 @@ console.log(docOne1.name);
 
 let docTwo = addUID1('hello');
 console.log(docTwo);
+
+
+//Generics - specific type
+const addUID2 = <T extends object>(obj: T) => {
+  let uid = Math.floor(Math.random() * 100);
+
+  return { ...obj, uid };
+}
+
+let docOne2 = addUID2({ name: 'yoshi', age: 40 });
+
+console.log(docOne2);
+console.log(docOne2.name);
+
+// let docTwo2 = addUID2('hello');
+// console.log(docTwo2);

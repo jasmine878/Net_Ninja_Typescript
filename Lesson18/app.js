@@ -27,3 +27,13 @@ console.log(docOne1);
 console.log(docOne1.name);
 var docTwo = addUID1('hello');
 console.log(docTwo);
+//Generics - specific type
+var addUID2 = function (obj) {
+    var uid = Math.floor(Math.random() * 100);
+    return __assign(__assign({}, obj), { uid: uid });
+};
+var docOne2 = addUID2({ name: 'yoshi', age: 40 });
+console.log(docOne2);
+console.log(docOne2.name);
+// let docTwo2 = addUID2('hello');
+// console.log(docTwo2);
