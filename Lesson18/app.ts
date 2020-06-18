@@ -63,3 +63,16 @@ interface Resource<T> {
   data: T;
 }
 
+const docFour: Resource<string> = {
+  uid: 1,
+  resouceName: 'person',
+  data: 'shaun'
+}
+
+const docFive: Resource<string[]> = {
+  uid: 2,
+  resouceName: 'shoppingList',
+  data: ['bread', 'milk', 'toilet roll']
+}
+
+console.log(docFour, docFive);

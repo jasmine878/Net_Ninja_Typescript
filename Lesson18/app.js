@@ -45,3 +45,14 @@ var addUID3 = function (obj) {
 var docOne3 = addUID3({ name: 'yoshi', age: 40 });
 console.log(docOne3);
 console.log(docOne3.name);
+var docFour = {
+    uid: 1,
+    resouceName: 'person',
+    data: 'shaun'
+};
+var docFive = {
+    uid: 2,
+    resouceName: 'shoppingList',
+    data: ['bread', 'milk', 'toilet roll']
+};
+console.log(docFour, docFive);
