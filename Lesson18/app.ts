@@ -56,3 +56,10 @@ console.log(docOne3);
 console.log(docOne3.name);
 
 
+//Generics with Interface
+interface Resource<T> {
+  uid: number;
+  resouceName: string;
+  data: T;
+}
+
