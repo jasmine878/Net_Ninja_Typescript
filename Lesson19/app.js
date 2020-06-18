@@ -8,3 +8,16 @@ var ResourceType;
     ResourceType[ResourceType["PERSON"] = 4] = "PERSON";
 })(ResourceType || (ResourceType = {}));
 ;
+var docOne = {
+    uid: 1,
+    // resourceType: 3,
+    resourceType: ResourceType.BOOK,
+    data: { title: 'name of the wind' }
+};
+var docTwo = {
+    uid: 10,
+    // resourceType: 4,
+    resourceType: ResourceType.PERSON,
+    data: { name: 'yoshi' }
+};
+console.log(docOne, docTwo);
