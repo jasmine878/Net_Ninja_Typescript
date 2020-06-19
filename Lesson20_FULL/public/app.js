@@ -29,3 +29,8 @@ arr[0] = false;
 arr[1] = 'yoshi';
 arr = [30, false, 'yoshi'];
 //tuples
+let tuple = ['ryu', 25, true];
+tuple[0] = 'ken';
+tuple[1] = 30;
+let student;
+student = ['chun-li', 223423];

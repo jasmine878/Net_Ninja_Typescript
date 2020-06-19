@@ -39,4 +39,11 @@ arr[1] = 'yoshi';
 arr = [30, false, 'yoshi'];
 
 //tuples
+let tuple: [string, number, boolean] = ['ryu', 25, true];
 
+tuple[0] = 'ken';
+tuple[1] = 30;
+
+let student: [string, number];
+
+student = ['chun-li', 223423];
