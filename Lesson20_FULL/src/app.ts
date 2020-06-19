@@ -31,3 +31,12 @@ form.addEventListener('submit', (e: Event) => {
   list.render(doc, type.value, 'end');
 })
 
+//array
+let arr = ['ryu', 25, true];
+
+arr[0] = false;
+arr[1] = 'yoshi';
+arr = [30, false, 'yoshi'];
+
+//tuples
+
